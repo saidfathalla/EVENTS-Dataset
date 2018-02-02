@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>SemSur 2.0 Ontology</title>
+    <style type="text/css">
+    body {
+        background: #FFF;
+        color: #000;
+        font-family: Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+        margin: 1%;
+        padding: 1%;
+        text-align: left;
+    }
+
+    table {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0px;
+        border-color: grey;
+        width: 99%;
+    }
+
+    table.border {
+        border-top: 1px solid #CCC;
+        border-left: 1px solid #CCC;
+        margin-bottom: 10px;
+    }
+
+    table.border th {
+        background: #EEE;
+        font-family: Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+    }
+
+    table.border td,
+    table.border th {
+        border-right: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        padding: .5em;
+    }
+
+    table.noborder {
+        margin-bottom: 10px;
+    }
+
+    table.noborder th {
+        background: #EEE;
+        font-family: Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+    }
+
+    table.noborder td,
+    table.noborder th {
+        padding: .5em;
+    }
+
+    tr.attribute th {
+        background-color: #fff;
+    }
+
+    table.border.index td,
+    table.border.index th {
+        border-spacing: 0;
+    }
+
+    table.index th {
+        border-right: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        padding: .5em;
+    }
+
+    th,
+    td {
+        vertical-align: top;
+    }
+
+    html>body,
+    html>body div,
+    html>body p,
+    html>body th,
+    html>body td,
+    html>body li,
+    html>body dd {
+        font-size: small;
+    }
+
+    h1 {
+        color: #28288C;
+        font: bold 130% Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+    }
+
+    h2 {
+        color: #000;
+        font: bold 125% Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+    }
+
+    h3 {
+        color: #000;
+        font: bold 115% Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+    }
+
+    h4 {
+        color: #666;
+        font: bold 100% Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    h5 {
+        color: #777;
+        font: bold 80% Tahoma, Geneva, "Arial Unicode MS", Arial, Helvetica, sans-serif;
+    }
+
+    h6 {
+        color: #000;
+        font: normal 100% Verdana, Arial, "Arial Unicode MS", Helvetica, sans-serif;
+    }
+
+    div.footer {
+        clear: both;
+        margin-top: 1em;
+    }
+    .style1 {font-size: x-large}
+    </style>
+</head>
+
+<body>
+	<a name="top"></a> 
+	<h1 class="style1">SemSur   Ontology</h1>
+    <table>
+        <tbody>
+            <tr>
+                <th width="9%" scope="row"><div align="left">Title:</div></th>
+                <td width="91%" property="dcterms:Title">A dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for 25 top-prestigious events series.</td>
+            </tr>
+            <tr>
+                <th scope="row"><div align="left">Creator:</div></th>
+                <td property="dcterms:creator" label="UBONN, ARC">Said Fathalla and Christoph Lange</td>
+            </tr>
+            <tr>
+                <th scope="row"><div align="left">Date Issued:</div></th>
+                <td>
+                    <time property="dcterms:issued">2018-02-02</time>                </td>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left">Last update:</div></th>
+              <td property="dcterms:description"><time property="dcterms:issued">2018-02-02</time></td>
+            </tr>
+            <tr>
+                <th scope="row"><div align="left">Description:</div></th>
+                <td property="dcterms:description">This document is a 
+specification of or 25 top-prestigious events series (718 editions in total) in five computer science communities.<br>
+The dataset is publicly available online in three different formats (i.e. CSV, XML and RDF).</td>
+            </tr>
+            <tr>
+              <th scope="row">License and use: </th>
+              <td property="dcterms:description">Found <a href="/SemSur/Documentation/EVENTS_Licence.html">here</a> </td>
+            </tr>
+            <tr>
+              <th scope="row"><div align="left">Citation: </div></th>
+              <td property="dcterms:description">-</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="contents">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li>
+                <a href="#H1">Description</a>
+            </li>
+            <li>
+                <a href="#H2">Classes</a>
+            </li>
+            <li>
+                <a href="#H3">Properties</a>
+            </li>
+        </ol>
+    </div>
+    <h2>&nbsp;</h2>
+    <div id="H1">
+        <h2>Description</h2>
+        <div id="introduction">
+            <p>EVENTS is a dataset of scientific events, containing historical data about the publications, submissions, start date, end date, location and homepage for 25 top-prestigious events series (718 editions in total) in five computer science communities. 
+              The dataset is publicly available online in three different formats (i.e. CSV, XML and RDF). 
+            It is of interest to the conference steering committees or program chairs to assess the progress of their event over time and compare it against other competing events in the same field, or by potential authors who look for events to publish their work.</p>
+            <p>We selected top-5 conferences in five CS communities derived from analysing the topics of each event series, then mapped to the ACM Computing Classification System (CCS): Information systems (IS), Security and privacy (SEC), Artificial intelligence (AI), Computer systems organization (CSO) and Software and its engineering (SE).<br>
+              This dataset plug an important gap in analyzing the progress of a CS community in terms of submissions and publications over a long-term vision.<br>
+              In addition, it measures some significant aspects of different computer science communities publications over time, how submissions change and distribution of prestigious events in each community over the world.<br>
+              We believe that EVENTS dataset will have a great impact on scholarly communication community especially, for:<br>
+              <br>
+              - events organizers -- to trace their events progress/impact, <br>
+              - authors -- identify prestigious events to publish their research work, <br>
+            - proceedings publishers --  to know the impact of the events they are publishing their proceedings.</p>
+            <p>	&nbsp;&nbsp;&nbsp;	<br>
+              </p>
+      </div>
+                 
+</div>
+
+<div id="H1">
+        <h2>Sample data (csv)</h2>
+        <div id="introduction">
+            <p>&nbsp;</p>
+            <table border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+              <col width="64" span="15">
+              <tr height="19">
+                <td width="64" height="19" bordercolor="#CCCCCC">Title</td>
+                <td width="64" bordercolor="#CCCCCC">year</td>
+                <td width="64" bordercolor="#CCCCCC">Acronym</td>
+                <td width="64" bordercolor="#CCCCCC">Series</td>
+                <td width="64" bordercolor="#CCCCCC">Start date</td>
+                <td width="64" bordercolor="#CCCCCC">End date</td>
+                <td width="64" bordercolor="#CCCCCC">Submitted papers</td>
+                <td width="64" bordercolor="#CCCCCC">Accepted papers</td>
+                <td width="64" bordercolor="#CCCCCC">Submission Rate</td>
+                <td width="64" bordercolor="#CCCCCC">City</td>
+                <td width="64" bordercolor="#CCCCCC">State</td>
+                <td width="64" bordercolor="#CCCCCC">Country</td>
+                <td width="64" bordercolor="#CCCCCC">Field</td>
+                <td width="64" bordercolor="#CCCCCC">Type</td>
+                <td width="64" bordercolor="#CCCCCC">Homepage</td>
+              </tr>
+        <tr height="19">
+          <td height="19" bordercolor="#CCCCCC">31st Annual National Conference on    Artificial Intelligence</td>
+          <td align="right" bordercolor="#CCCCCC">2017</td>
+          <td bordercolor="#CCCCCC">AAAI</td>
+          <td bordercolor="#CCCCCC">AAAI2017</td>
+          <td align="right" bordercolor="#CCCCCC">4-Feb-17</td>
+          <td align="right" bordercolor="#CCCCCC">9-Feb-17</td>
+          <td align="right" bordercolor="#CCCCCC">2590</td>
+          <td align="right" bordercolor="#CCCCCC">638</td>
+          <td align="right" bordercolor="#CCCCCC">24.60%</td>
+          <td bordercolor="#CCCCCC">San Francisco</td>
+          <td bordercolor="#CCCCCC">California</td>
+          <td bordercolor="#CCCCCC">USA</td>
+          <td bordercolor="#CCCCCC">Artificial Intelligence</td>
+          <td bordercolor="#CCCCCC">Conference</td>
+          <td bordercolor="#CCCCCC">aaai.org/Conferences/AAAI/aaai17.php</td>
+              </tr>
+            </table>
+            <p><br>
+            </p>
+        </div>
+                 
+</div>
+
+<div id="H1">
+        <h2>Sample data (xml)</h2>
+        <p>&lt;Row ss:Height=&quot;13.8&quot;&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;31st Annual National Conference on Artificial Intelligence&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s89&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;2017&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;AAAI&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;AAAI2017&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s90&quot;&gt;&lt;Data ss:Type=&quot;DateTime&quot;&gt;2017-02-04T00:00:00.000&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s90&quot;&gt;&lt;Data ss:Type=&quot;DateTime&quot;&gt;2017-02-09T00:00:00.000&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s89&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;2590&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s89&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;638&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s93&quot; ss:Formula=&quot;=RC[-1]/RC[-2]&quot;&gt;&lt;Data ss:Type=&quot;Number&quot;&gt;0.24633204633204633&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;San Francisco&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;California&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;USA&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s71&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;Artificial Intelligence&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;Conference&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;Cell ss:StyleID=&quot;s64&quot;&gt;&lt;Data ss:Type=&quot;String&quot;&gt;aaai.org/Conferences/AAAI/aaai17.php&lt;/Data&gt;&lt;/Cell&gt;<br>
+&lt;/Row&gt;</p>
+        <div id="introduction">
+
+      </div>
+                 
+</div>
+
+<div id="H1">
+        <h2>Sample data (rdf)</h2>
+        <p>&nbsp;</p>
+        <div id="introduction">
+
+<xmp>
+         
+1: <?xml version="1.0" encoding="utf-8"?>
+2: <!DOCTYPE rdf:RDF [
+3: 	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+4: 	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+5: 	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+6: ]>
+7: <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://example.org/data/AAAI.csv#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+8: 
+9:   <rdf:Description rdf:about="http://example.org/data/AAAI.csv#row=10">
+10:     <Event_Accepted_papers rdf:datatype="&xsd;integer">227</Event_Accepted_papers>
+11:     <Event_Acronym>AAAI</Event_Acronym>
+12:     <Event_City>Chicago</Event_City>
+13:     <Event_Country>USA</Event_Country>
+14:     <Event_End_date rdf:datatype="&xsd;dateTime">2008-07-17T00:00:00.0000000+00:00</Event_End_date>
+15:     <Event_Field>Artificial Intelligence</Event_Field>
+16:     <Event_Homepage>aaai.org/Conferences/AAAI/aaai08.php</Event_Homepage>
+17:     <Event_Series>AAAI2008</Event_Series>
+18:     <Event_Start_date>2008</Event_Start_date>
+19:     <Event_Start_date rdf:datatype="&xsd;dateTime">2008-07-13T00:00:00.0000000+00:00</Event_Start_date>
+20:     <Event_State>Illinois</Event_State>
+21:     <Event_Submission_Rate>24.2%</Event_Submission_Rate>
+22:     <Event_Submitted_papers rdf:datatype="&xsd;integer">937</Event_Submitted_papers>
+23:     <Event_Type>Conference</Event_Type>
+24:     <Title>23rd Annual National Conference on Artificial Intelligence</Title>
+25:   </rdf:Description>
+26: 
+27: </rdf:RDF>
+</xmp>		
+      </div>
+                 
+</div>
+
+
+    <!-- ******************* SECTION 2: CLASSES ******************* -->
+    <!-- ******************* SECTION 3: PROPERTIES ******************* -->
+    <div class="footer">
+        <p><a href="file:///about/copyright/#copyright">Copyright</a> &copy; 2018. All Rights Reserved. </p>
+</div>
+</body></html>
