@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/eventskg/"
      xml:base="http://purl.org/eventskg/"
      xmlns:eventskg="http://purl.org/eventskg/"
@@ -28,9 +28,9 @@
     
 
 
-    <!-- http://purl.org/eventskg/seo:webpage -->
+    <!-- http://purl.org/eventskg/EventWebpage -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/eventskg/seo:webpage"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/eventskg/EventWebpage"/>
     
 
 
@@ -79,17 +79,17 @@
 
     <!-- http://purl.org/eventskg/AAAI -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>AAAI</conference-ontology:acronym>
         <conference-ontology:title>Annual National Conference on Artificial Intelligence</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1980 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1980">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1980">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>Stanford</seo:city>
@@ -98,16 +98,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-08-21T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1980</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-08-18T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai80.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai80.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1982 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1982">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1982">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>Pittsburgh</seo:city>
@@ -115,16 +115,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1982-08-22T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1982</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1982-08-18T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai82.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai82.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1983 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1983">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1983">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>Washington</seo:city>
@@ -132,16 +132,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1983-08-26T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1983</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1983-08-22T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai83.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai83.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1984 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1984">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1984">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>Austin</seo:city>
@@ -150,16 +150,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1984-08-10T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1984</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1984-08-06T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai84.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai84.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1986 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1986">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1986">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>22.9%</seo:acceptanceRate>
@@ -170,16 +170,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1986-08-15T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1986</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1986-08-11T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai86.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai86.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI19877 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI19877">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI19877">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>20.8%</seo:acceptanceRate>
@@ -191,16 +191,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1987-07-17T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1987</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1987-07-13T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai87.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai87.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1988 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1988">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1988">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>17.4%</seo:acceptanceRate>
@@ -212,16 +212,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1988-08-26T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1988</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1988-08-21T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai88.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai88.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1990 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1990">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1990">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>18.0%</seo:acceptanceRate>
@@ -233,16 +233,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-08-03T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1990</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-07-29T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai90.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai90.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1991 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1991">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1991">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>23.5%</seo:acceptanceRate>
@@ -254,16 +254,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-07-19T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1991</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1991-07-14T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai91.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai91.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1992 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1992">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1992">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>20.9%</seo:acceptanceRate>
@@ -275,16 +275,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1992-07-16T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1992</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1992-07-12T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai92.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai92.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1993 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1993">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1993">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>24.0%</seo:acceptanceRate>
@@ -295,16 +295,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-07-15T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1993</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-07-11T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai93.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai93.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1994 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1994">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1994">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>28.5%</seo:acceptanceRate>
@@ -316,16 +316,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-08-04T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1994</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-07-31T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai94.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai94.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1996 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1996">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1996">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>30.6%</seo:acceptanceRate>
@@ -337,16 +337,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-08-08T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1996</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-08-04T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai96.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai96.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1997 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1997">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1997">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>36.2%</seo:acceptanceRate>
@@ -358,16 +358,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-07-31T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1997</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1997-07-27T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai97.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai97.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1998 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1998">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1998">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>30.3%</seo:acceptanceRate>
@@ -379,16 +379,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-07-30T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1998</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1998-07-26T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai98.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai98.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI1999 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI1999">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI1999">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>27.3%</seo:acceptanceRate>
@@ -400,16 +400,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-07-22T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>1999</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1999-07-18T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai99.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai99.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2000 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2000">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2000">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>33.2%</seo:acceptanceRate>
@@ -421,16 +421,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-08-03T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2000</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-07-30T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai00.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai00.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2002 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2002">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2002">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>25.8%</seo:acceptanceRate>
@@ -442,16 +442,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-08-01T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2002</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-07-28T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai02.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai02.php</EventWebpage>
         <seo:country>Canada</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2004 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2004">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2004">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>26.7%</seo:acceptanceRate>
@@ -463,16 +463,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-29T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2004</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-07-25T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai04.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai04.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2005 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2005">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2005">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>28.5%</seo:acceptanceRate>
@@ -484,16 +484,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-13T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2005</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-07-09T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai05.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai05.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2006 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2006">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2006">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>30.5%</seo:acceptanceRate>
@@ -505,16 +505,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-20T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2006</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-16T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai06.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai06.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2007 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2007">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2007">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>27.5%</seo:acceptanceRate>
@@ -526,16 +526,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-26T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2007</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-22T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai07.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai07.php</EventWebpage>
         <seo:country>Canada</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2008 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2008">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2008">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>24.2%</seo:acceptanceRate>
@@ -547,16 +547,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-17T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2008</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-13T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai08.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai08.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2010 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2010">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2010">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>26.9%</seo:acceptanceRate>
@@ -568,16 +568,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-15T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2010</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-11T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai10.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai10.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2011 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2011">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2011">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>24.8%</seo:acceptanceRate>
@@ -589,16 +589,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2011</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-07T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai11.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai11.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2012 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2012">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2012">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>26.0%</seo:acceptanceRate>
@@ -610,16 +610,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-26T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2012</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-22T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai12.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai12.php</EventWebpage>
         <seo:country>Canada</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2013 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2013">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2013">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>24.5%</seo:acceptanceRate>
@@ -631,16 +631,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-18T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2013</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-14T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai13.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai13.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2014 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2014">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2014">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>28.3%</seo:acceptanceRate>
@@ -652,16 +652,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-31T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2014</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-27T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai14.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai14.php</EventWebpage>
         <seo:country>Canada</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2015 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2015">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2015">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>26.7%</seo:acceptanceRate>
@@ -673,16 +673,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-30T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2015</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-25T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai15.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai15.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2016 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2016">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2016">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>25.8%</seo:acceptanceRate>
@@ -692,17 +692,18 @@
         <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2132</seo:submittedPapers>
         <conference-ontology:acronym>AAAI</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-17T00:00:00.0000000+00:00</conference-ontology:endDate>
+        <conference-ontology:startDate>2016</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-12T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai16.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai16.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2017 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2017">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:acceptanceRate>24.6%</seo:acceptanceRate>
@@ -714,16 +715,16 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-09T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2017</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-02-04T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI/aaai17.php</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI/aaai17.php</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/AAAI2018 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/AAAI2018">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/AAAI2018">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/AAAI"/>
         <seo:city>New Orleans</seo:city>
@@ -732,60 +733,60 @@
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-07T00:00:00.0000000+00:00</conference-ontology:endDate>
         <conference-ontology:startDate>2018</conference-ontology:startDate>
         <conference-ontology:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-02T00:00:00.0000000+00:00</conference-ontology:startDate>
-        <seo:webpage>aaai.org/Conferences/AAAI-18/</seo:webpage>
+        <EventWebpage>aaai.org/Conferences/AAAI-18/</EventWebpage>
         <seo:country>USA</seo:country>
         <seo:field>Artificial Intelligence</seo:field>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ASPLOS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ASPLOS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ASPLOS">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ASPLOS</conference-ontology:acronym>
         <conference-ontology:title>Architectural Support for Programming Languages and Operating Systems</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/CCS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/CCS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/CCS">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>CCS</conference-ontology:acronym>
         <conference-ontology:title>Conference on Computer and Communications Security</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/COLT -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/COLT">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/COLT">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>COLT</conference-ontology:acronym>
         <conference-ontology:title>Conference on Learning Theory</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/CVPR -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/CVPR">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/CVPR">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>CVPR</conference-ontology:acronym>
         <conference-ontology:title xml:lang="en">IEEE Conference on Computer Vision and Pattern Recognition</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/CVPR2017 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/CVPR2017">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/CVPR2017">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/CVPR"/>
         <Country>USA</Country>
-        <seo:webpage>cvpr2018.thecvf.com/</seo:webpage>
+        <seo:EventWebpage>cvpr2018.thecvf.com/</seo:EventWebpage>
         <seo:acceptanceRate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.299</seo:acceptanceRate>
         <seo:acceptedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">783</seo:acceptedPapers>
         <seo:city>Honolulu</seo:city>
@@ -793,368 +794,368 @@
         <seo:submittedPapers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2620</seo:submittedPapers>
         <conference-ontology:acronym>CVPR2017</conference-ontology:acronym>
         <conference-ontology:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-27T00:00:00</conference-ontology:endDate>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/CVPR2018 -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/CVPR2018">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/CVPR2018">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#Conference"/>
         <seo:belongsToSeries rdf:resource="http://purl.org/eventskg/CVPR"/>
         <conference-ontology:endDate xml:lang="en">22-Jun-2018</conference-ontology:endDate>
         <conference-ontology:startDate xml:lang="en">18-Jun-2018</conference-ontology:startDate>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/DSN -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/DSN">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/DSN">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>DSN</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Dependable Systems and Networks</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/EDBT -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/EDBT">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/EDBT">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>EDBT</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Extending Database Technology</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ESWC -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ESWC">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ESWC">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ESWC</conference-ontology:acronym>
         <conference-ontology:title>European Semantic Web Conference</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/EuroCrypt -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/EuroCrypt">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/EuroCrypt">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>EuroCrypt</conference-ontology:acronym>
         <conference-ontology:title>International Conference on the Theory and Applications of Cryptographic Techniques</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/FOCS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/FOCS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/FOCS">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>FOCS</conference-ontology:acronym>
         <conference-ontology:title>Annual Symposium on Foundations of Computer Science</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/FOGA -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/FOGA">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/FOGA">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#WorkshopSeries"/>
         <conference-ontology:acronym>FOGA</conference-ontology:acronym>
         <conference-ontology:title>ACM/SIGEVO Conference on Foundations of Genetic Algorithms</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/HPCA -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/HPCA">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/HPCA">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>HPCA</conference-ontology:acronym>
         <conference-ontology:title>High-Performance Computer Architecture</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ICCV -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ICCV">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICCV">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ICCV</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Computer Vision</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ICDE -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ICDE">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICDE">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ICDE</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Data Engineering</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ICSE -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ICSE">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICSE">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ICSE</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Software Engineering</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ICWS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ICWS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ICWS">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ICWS</conference-ontology:acronym>
         <conference-ontology:title>IEEE International Conference on Web Services</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/IJCAI -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/IJCAI">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/IJCAI">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>IJCAI</conference-ontology:acronym>
         <conference-ontology:title>International Joint Conference on Artificial Intelligence</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/IJCAR -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/IJCAR">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/IJCAR">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>IJCAR</conference-ontology:acronym>
         <conference-ontology:title>International Joint Conference on Automated Reasoning</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ISCA -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ISCA">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ISCA">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>ISCA</conference-ontology:acronym>
         <conference-ontology:title>International Symposium on Computer Architecture</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ISMAR -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ISMAR">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ISMAR">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>ISMAR</conference-ontology:acronym>
         <conference-ontology:title>IEEE / ACM International Symposium on Mixed and Augmented Reality</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/ISWC -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/ISWC">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/ISWC">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>ISWC</conference-ontology:acronym>
         <conference-ontology:title>International Semantic Web Conference</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/KR -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/KR">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/KR">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>KR</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Principles of Knowledge Representation and Reasoning</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/NDSS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/NDSS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/NDSS">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>NDSS</conference-ontology:acronym>
         <conference-ontology:title>Annual Network and Distributed System Security Symposium</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/NIPS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/NIPS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/NIPS">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>NIPS</conference-ontology:acronym>
         <conference-ontology:title>Advances in Neural Information Processing Systems</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/OOPSLA -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/OOPSLA">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/OOPSLA">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>OOPSLA</conference-ontology:acronym>
         <conference-ontology:title>Conference on Object-Oriented Programming Systems, Languages, and Applications</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/OSDI -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/OSDI">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/OSDI">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>OSDI</conference-ontology:acronym>
         <conference-ontology:title>USENIX Symposium on Operating Systems Design and Implementation</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/PERCOM -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/PERCOM">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/PERCOM">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>PERCOM</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Pervasive Computing and Communications</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/PKDD -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/PKDD">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/PKDD">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>PKDD</conference-ontology:acronym>
         <conference-ontology:title>Principles and Practice of Knowledge Discovery in Databases</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/PLDI -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/PLDI">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/PLDI">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>PLDI</conference-ontology:acronym>
         <conference-ontology:title>Conference on Programming Language Design and Implementation</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/PODC -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/PODC">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/PODC">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>PODC</conference-ontology:acronym>
         <conference-ontology:title>Symposium on Principles of Distributed Computing</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/PODS -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/PODS">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/PODS">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>PODS</conference-ontology:acronym>
         <conference-ontology:title>ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/POPL -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/POPL">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/POPL">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>POPL</conference-ontology:acronym>
         <conference-ontology:title>ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/RecSys -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/RecSys">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/RecSys">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>RecSys</conference-ontology:acronym>
         <conference-ontology:title>Conference on Recommender Systems</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/SP -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/SP">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/SP">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>SP</conference-ontology:acronym>
         <conference-ontology:title>IEEE Symposium on Security and Privacy</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/UIST -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/UIST">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/UIST">
         <rdf:type rdf:resource="http://purl.org/seo/SymposiumSeries"/>
         <conference-ontology:acronym>UIST</conference-ontology:acronym>
         <conference-ontology:title>ACM Symposium on USer Interface Software and Technology</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/USENIX -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/USENIX">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/USENIX">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>USENIX</conference-ontology:acronym>
         <conference-ontology:title>Usenix Security Symposium</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/VLDB -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/VLDB">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/VLDB">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>VLDB</conference-ontology:acronym>
         <conference-ontology:title>International Conference on Very Large Databases</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/VR -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/VR">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/VR">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>VR</conference-ontology:acronym>
         <conference-ontology:title>IEEE Conference on Virtual Reality and 3D User Interfaces</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/WSDM -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/WSDM">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WSDM">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>WSDM</conference-ontology:acronym>
         <conference-ontology:title>ACM International Conference on Web Search and Data Mining</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/eventskg/WWW -->
 
-    <rdf:Description rdf:about="http://purl.org/eventskg/WWW">
+    <owl:NamedIndividual rdf:about="http://purl.org/eventskg/WWW">
         <rdf:type rdf:resource="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#ConferenceSeries"/>
         <conference-ontology:acronym>WWW</conference-ontology:acronym>
         <conference-ontology:title>International Conference on World Wide Web</conference-ontology:title>
-    </rdf:Description>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
